@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/43f38925f6.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <title>Rabitəbank</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/rabite.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-borderbox1 darktolight">
+            <div class="container darktolight">
+
+                <div class="header-top">
+                    <div class="header-top-left">
+                        <span class="disnone"><a href="#">Fərdi</a></span>
+                        <span class="disnone"><a href="#">Biznes </a></span>
+                        <a href="#"><span><i class="fas fa-university" style="color: #888;"></i></span> Ümumi
+                            məlumat</a>
+                        <span class="filban"><span><i class="fas fa-map-pin" style="color: #888;"></i></span> <a
+                                href="#">Filial və bankomatlar</a></span>
+                    </div>
+                    <div class="header-top-right">
+
+                        <!-- <a href="#" onclick="myFunction()"  class="darkmode"><i class="fas fa-moon fa-sm" style="color: #ffffff;"></i></a> -->
+                        <!-- <i class="bi bi-brightness-high-fill" id="toggleDark"></i> -->
+                        <a href="#"><button id="mode-toggle"><i class="fas fa-moon"></i></button></a>
+                        <span class="flag"><img src="./img/flag.png" alt=""></span>
+
+                        <select class="lang darktolight" style=" background-color: transparent; border: none;">
+                            <option class="opti " selected>AZ</option>
+                            <option class="opti">EN</option>
+                            <option class="opti">RU</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="header-borderbox2 darktolight">
+            <div class="container darktolight">
+                <div class="header-main">
+                    <div class="header-main-left">
+                        <a href="logo"><img src="	https://www.rabitabank.com/images/rabitebank.svg" alt="logo"></a>
+
+                        <span class="spannone">
+                            <a class="ferdi ferdi-biznes" href="#"><i class="fas fa-user"></i>Fərdi</a>
+                            <a class="biznes ferdi-biznes" href="#"><i class="fas fa-briefcase"></i>Biznes</a>
+
+                        </span>
+
+
+
+                    </div>
+                    <div class="header-main-right">
+                        <a class="phone-login phone" href="#"> <i class="fa-solid fa-phone-volume"></i><span
+                                class="call133">133</span></a>
+                        <a class="phone-login login" href="#"> <i class="fas fa-sign-in-alt"></i><span
+                                class="intban">İnternet Bankçılıq</span></a>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="header-bottom-left">
+                        <ul class="headerul d-flex align-items-center">
+                            <li> <a class="darktolight" href="#">Kreditlər</a></li>
+                            <li><a class="darktolight" href="#"><img src="./img/menu-card-1.webp" alt=""> Kartlar</a></li>
+                            <li> <a class="darktolight" href="#">Əmanətlər</a></li>
+                            <li><a class="darktolight dotcover" href="#">...</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-bottom-right">
+                        <a class="fasearcha" href="#"><i class="fas fa-search" style="color: #000;"></i></a>
+                        <a class="onlinenovbe" href="#"><i class=" fas fa-calendar-alt" style="color: #ffffff;"></i>
+                            Onlayn növbə</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    </div>
+    <div class="container darktolight">
+        <main>
+            <!-- <div class="layout">
+
+                <div class="order-map">
+
+                    <div class="order">
+                        <h1>Onlayn növbə</h1>
+                        <p>Gözləmədən rahat bankçılıq xidmətlərindən faydalanmaq üçün onlayn növbə götürün.</p>
+                        <div class="order-data">
+                            <div class="filial">
+                                <p>Filial seçin</p>
+                                <select>
+                                    <option selected value="">seçin</option>
+                                    <option>Nəsimi filialı (Heydər Əliyev sarayının yanı)</option>
+                                    <option>Nizami filialı (Baku, Nizami district)</option>
+                                    <option>Səbail Filialı (Baku, Sabail district)</option>
+                                    <option>Nərimanov filialı (Baku, Narimanov district)</option>
+                                    <option>Yasamal filialı (Baku Yasamal district)</option>
+                                    <option>Baş Ofis (Baku, 28 May str. 33)</option>
+                                    <option>Sahil filialı (Baku, A. Rajabli str. 3)</option>
+                                    <option>Xətai filialı (Baku, 37 Khojali ave. Damirchi Tower)</option>
+                                    <option>Sumqayıt filialı (Sumgayıt city, 102, S.Vurgun str.)</option>
+                                    <option>Mərkəz filialı (Baku city, 1, B.Sardarov street)</option>
+                                    <option>Şirvan filialı (Şirvan şəhəri, 20 yanvar küç., 12)</option>
+                                    <option>Kürdəmir filialı (Kürdəmir şəhəri, H.Əliyev pr., 3-cü məh.)</option>
+                                    <option>Ağsu filialı (Ağsu şəhəri, M.Ə.Rəsulzadə küç. 9)</option>
+                                    <option>Şamaxı filialı (Şamaxı şəhəri, N.Nərimanov 66)</option>
+                                    <option>Şəki filialı (Şəki şəhəri, M. Rəsulzadə 178)</option>
+                                    <option>Xaçmaz filialı (Xaçmaz şəhəri, N.Nərimanov küç. 15)</option>
+                                    <option>Quba filialı (Quba şəhəri, H.Əliyev pr.)</option>
+                                    <option>Qusar filialı (Qusar rayonu, Ç.Qurbanov küç 18A)</option>
+                                    <option>Şəmkir filialı (Şəmkir şəhəri, Nizami küç., 1)</option>
+                                    <option>Gəncə filialı (Gəncə şəhəri, H.Əliyev pr. 273)</option>
+                                    <option>Ağcabədi filialı (Ağcabədi şəhəri, H.Əliyev pr.29)</option>
+                                    <option>Lənkəran filialı (Lənkəran şəhəri, Səttərxan küç, 27)</option>
+                                    <option>Masallı filialı (Masallı rayonu, H.Əliyev pr.)</option>
+                                    <option>Kaspian filialı (Baku, Caspian plaza)</option>>
+                                    <option>KOB Mərkəzi (Əhməd Rəcəbli)</option>>
+                                </select>
+                            </div>
+                            <div class="xidmetnovu">
+                                <p>Xidmət növü seçin</p>
+                                <select>
+                                    <option selected>Seçin</option>
+                                    <option>Kredit müraciəti</option>
+                                    <option>Sürətli pul köçürmələri</option>
+                                    <option>Plastik kart</option>
+                                    <option>Əmanət</option>
+                                    <option>Hesab üzrə əməliyyatlar</option>
+                                    <option>Hüquqi şəxs və sahibkarlar</option>
+                                </select>
+                            </div>
+                            <div class="tarix">
+                                <p>Tarixi seçin</p>
+                                <input type="date" id="tarih" name="tarih">
+                            </div>
+                            <div class="vaxt">
+                                <p>Vaxtı seçin</p>
+                                <select>
+                                    <option>09:00:00</option>
+                                    <option>10:00:00</option>
+                                    <option>11:00:00</option>
+                                    <option>12:00:00</option>
+                                    <option>14:00:00</option>
+                                    <option>15:00:00</option>
+                                    <option>16:00:00</option>
+                                </select>
+                            </div>
+                            <div class="nomre"></div>
+                            <div class="novbe-button"></div>
+                        </div>
+
+                    </div>
+                    <div class="map"></div>
+                </div>
+            </div> -->
+            <div class="slider">
+
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="banner-text">
+                                <div class="slider-left">
+                                    <h2>Kartmane Kredit kartı</h2>
+                                    <ul class="banner-ul">
+                                        <li><span>Nağdlaşdırma</span>
+                                            <p>100%</p>
+                                        </li>
+                                        <li class="r-li"><span>Güzəşt müddəti</span>
+                                            <p>100 gün</p>
+
+
+                                        </li>
+                                        <li class="kartlimiti">
+                                            <span>Kart limiti</span>
+                                            <p>200 - 15 000 AZN</p>
+                                        </li>
+                                    </ul>
+                                    <button class="sifariset">Sifariş et</button>
+                                </div>
+                                <div><img class="kredit1" src="./img/kredit-1.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="banner-text">
+                                <div class="slider-left">
+                                    <h2>Nağd pul krediti</h2>
+                                    <p class="slider-p">Bütün ehtiyaclar üçün nağd pul krediti</p>
+                                    <ul class="banner-ul">
+                                        <li><span>Məbləğ</span>
+                                            <p>30 000 AZN</p>
+                                        </li>
+                                        <li class="r-li"><span>Faiz dərəcəsi</span>
+                                            <p>12%-dən</p>
+                                        </li>
+                                        <li class="muddet">
+                                            <span>Müddət</span>
+                                            <p>48 aya qədər</p>
+                                        </li>
+                                    </ul>
+                                    <button class="sifariset">Sifariş et</button>
+                                </div>
+                                <div><img class="kredit1" src="./img/kredit-2.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="suretlikecidler">
+                <h2 class="darktolight">Sürətli keçidlər</h2>
+                <div class="wrapper">
+                    <div class="slider2">
+                        <a href="#">
+                            <span>Nağd pul krediti</span>
+                            <img src="./img/item1.png" alt="img">
+                        </a>
+                    </div>
+                    <div class="slider2">
+                        <a href="#">
+                            <span>Əmanətlər</span>
+                            <img src="./img/item2.png" alt="img">
+                        </a>
+                    </div>
+                    <div class="slider2">
+                        <a href="#">
+                            <span>Pul Köçürmələri</span>
+                            <img src="./img/item3.png" alt="img">
+                        </a>
+                    </div>
+                    <div class="slider2">
+                        <a href="#">
+                            <span>Keşbek</span>
+                            <img src="./img/item4.png" alt="img">
+                        </a>
+                    </div>
+                    <div class="slider2">
+                        <a href="#">
+                            <span>Kampaniyalar</span>
+                            <img src="./img/item5.png" alt="img">
+                        </a>
+                    </div>
+                    <div class="slider2 lastslider2">
+                        <a href="#">
+                            <span>Kartmane Premium</span>
+                            <img src="./img/item6-removebg-preview.png" alt="img">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="rabitamobile">
+                <div class="mobileimg"><img src="./img/online.png" alt="img"></div>
+                <div class="barcodeimg">
+                    <h2>Rabita Mobile</h2>
+                    <p>
+                        Hər yerdə maliyyə xidmətlərimizdən faydalanmaq üçün Rabita Mobile istifadə edin! </p>
+                    <div class="storelinks">
+                        <a href="https://apps.apple.com/tr/app/rabita-mobile/id1457972986"><img
+                                src="https://www.rabitabank.com/images/svg-icons/apple_1.svg" alt=""></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.rabitabank&pli=1"><img
+                                src="https://www.rabitabank.com/images/svg-icons/google.svg" alt=""></a>
+                    </div>
+                    <div class="storelinks-dt">
+                        <img src="./img/qrcode.png" alt="img">
+                        <span>
+                            Telefonunuzun kamerası ilə QR codu scan edin
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="valyuta-kalkulyator">
+                <div class="valyuta">
+                    <div class="table-div">
+                        <div class="div">
+                            <div>
+                                <h2 >Valyuta kursu</h2>
+                            </div>
+                            <div class="valyuta-top">
+                                <label>Nağdsız</label>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="flexSwitchCheckChecked" checked>
+                                    <!-- <button>Nagd</button> -->
+                                </div>
+                                <label>Nağd</label>
+                            </div>
+                        </div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="vasm" scope="col">Valyuta</th>
+                                    <th class="vasm" scope="col">Alış</th>
+                                    <th class="vasm" scope="col">Satış</th>
+                                    <th class="vasm" scope="col">Mərkəzi bank</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <div class="valyuta-bottom">
+                            <p>Kurs 20.04.23 tarixinə qədər aktivdir.</p>
+                            <button>Konvertasiya et</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="kalkulyator">
+                    <h2 class="calh2">Kredit kalkulyatoru</h2>
+                    <div class="kalkulyator-top">
+                        <h3>Kredit məbləği</h3>
+                        <div class="range">
+                            <div class="range-top">
+                                <span id="value">300</span>
+                                <span>AZN</span>
+                            </div>
+
+                            <input class="rangeinp" type="range" min="300" max="30000" value="0">
+                        </div>
+                    </div>
+                    <div class="kalkulyator-bottom">
+                        <div class="range-btm">
+                            <h3>Kredit müddəti</h3>
+                            <div class="range rangesize">
+                                <div class="range-top">
+                                    <span id="value2">3</span>
+                                    <span>Ay</span>
+                                </div>
+
+                                <input class="rangeinp2" type="range" min="3" max="48" value="3">
+                            </div>
+                        </div>
+                        <div class="range-btm">
+                            <h3>Faiz dərəcəsi</h3>
+                            <div class="range rangesize">
+                                <div class="range-top">
+                                    <span id="value3">12</span>
+                                    <span>%</span>
+                                </div>
+
+                                <input class="rangeinp3" type="range" min="12" max="18" value="12">
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="kalkulyator-footer">
+                        <p>Aylıq ödəniş:<span id="thisistheway">100 ₼</span></p>
+                        <button>Sifariş et</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="rabita-bot">
+                <a href="#">
+                    <img src="./img/botnew.png" alt="">
+                    <div class="rabita-bot-div">
+                        <h2>Rabita Bot</h2>
+                        <p>RabitəBot ilə bank xidmətlərindən 24/7 rahat və sürətli faydalana bilərsiniz!</p>
+                    </div>
+                    <div class="hesaba-nezaret">
+                        <img src="./img/bottextnew2.png" alt="">
+
+                    </div>
+                </a>
+            </div>
+        </main>
+        <div class="bas-ofis">
+            <p>Baş ofis</p>
+            <div>
+                <ul>
+                    <li><a href="#">Azərbaycan, Bakı şəh., AZ 1010, 28 May küç. 33</a></li>
+                    <li><a href="#">Tel.:(994 12) 598 44 88</a></li>
+                    <li><a href="#">Fax.:(994 12) 598 44 88</a></li>
+                    <li><a href="#">Teleks:142453 RSKBAI</a></li>
+                    <li><a href="#">133@rabitabank.com</a></li>
+                </ul>
+            </div>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            <p>Fərdi müştərilər</p>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <div class="accordion-content">Kartmane</div>
+                            <div class="accordion-content">Kreditlər</div>
+                            <div class="accordion-content">Əmanətlər</div>
+                            <div class="accordion-content">Onlayn xidmətlər</div>
+                            <div class="accordion-content">Kampaniyalar</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            <p> Biznes müştərilər</p>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <div class="accordion-content">Əmanətlər</div>
+                            <div class="accordion-content">Kreditlər</div>
+                            <div class="accordion-content">Plastik kartlar</div>
+                            <div class="accordion-content">Bank xidmətləri</div>
+                            <div class="accordion-content">Kampaniyalar</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            <p>Bank haqqında</p>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <div class="accordion-content">Ümumi məlumat</div>
+                            <div class="accordion-content">Strateji baxış və missiya</div>
+                            <div class="accordion-content">Rəhbərlik</div>
+                            <div class="accordion-content">Banklararası biznes</div>
+                            <div class="accordion-content">Risklərin idarə edilməsi</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            <p>Digər</p>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <div class="accordion-content">Yükləmələr və dəstək</div>
+                            <div class="accordion-content">Tender elanları</div>
+                            <div class="accordion-content">Hesabatlar</div>
+                            <div class="accordion-content">Şikayət və təkliflər</div>
+                            <div class="accordion-content">F.A.Q</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive">
+                            <p>İnsan resursları</p>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <div class="accordion-content">Ümumi məlumat</div>
+                            <div class="accordion-content">Vakansiyalar</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bas-ofis-dis">
+            <div class="bas-ofis-desk">
+                <div class="bas-ofis-pad">
+                    <p>Fərdi müştərilər</p>
+                    <div><a href="#">Kartmane</a> </div>
+                    <div><a href="#">Kreditlər</a> </div>
+                    <div><a href="#">Əmanətlər</a> </div>
+                    <div><a href="#">Onlayn xidmətlər</a> </div>
+                    <div><a href="#">Kampaniyalar</a> </div>
+                </div>
+                <div class="bas-ofis-pad">
+                    <p>Biznes müştərilər</p>
+                    <div><a href="#">Əmanətlər</a> </div>
+                    <div><a href="#">Kreditlər</a> </div>
+                    <div><a href="#">Plastik kartlar</a> </div>
+                    <div><a href="#">Bank xidmətləri</a> </div>
+                    <div><a href="#">Kampaniyalar</a> </div>
+                </div>
+                <div class="bas-ofis-pad">
+                    <p>Bank haqqında</p>
+                    <div><a href="#">Ümumi məlumat</a> </div>
+                    <div><a href="#">Strateji baxış və missiya</a> </div>
+                    <div><a href="#">Rəhbərlik</a> </div>
+                    <div><a href="#">Banklararası biznes</a> </div>
+                    <div><a href="#">Risklərin idarə edilməsi</a> </div>
+                </div>
+                <div class="bas-ofis-pad">
+                    <p>Digər</p>
+                    <div><a href="#">Yükləmələr və dəstək</a> </div>
+                    <div><a href="#">Tender elanları</a> </div>
+                    <div><a href="#">Hesabatlar</a> </div>
+                    <div><a href="#">Şikayət və təkliflər</a> </div>
+                    <div><a href="#">F.A.Q</a> </div>
+                </div>
+                <div class="bas-ofis-pad">
+                    <p>İnsan resursları</p>
+                    <div><a href="#"> Ümumi məlumat</a></div>
+                    <div><a href="#">Vakansiyalar</a> </div>
+                </div>
+                <div class="bas-ofis-pad">
+                    <p>Baş ofis</p>
+                    <div><a href="#">Azərbaycan, Bakı şəh., AZ 1010, 28 May küç. 33</a></div>
+                    <div><a href="#">Tel.:(994 12) 598 44 88</a></div>
+                    <div><a href="#">Fax.:(994 12) 598 44 88</a></div>
+                    <div><a href="#">Teleks:142453 RSKBAI</a></div>
+                    <div><a href="#">133@rabitabank.com</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="social-media-all">
+            <div class="social-desk">
+                <ul class="d-flex">
+                    <li><a target="_blank" href="#"><img src="https://www.rabitabank.com/images/svg-icons/apple_1.svg"
+                                alt="app"></a></li>
+                    <li><a target="_blank" href="#"><img src="https://www.rabitabank.com/images/svg-icons/google.svg"
+                                alt="app"></a></li>
+                    <li><a target="_blank" href="#"><img
+                                src="https://www.rabitabank.com/images/svg-icons/appgallery.svg" alt="app"></a></li>
+                </ul>
+            </div>
+            <div class="social-mob">
+                <span>Bizi izləyin</span>
+                <ul>
+                    <li><a target="_blank" href="#"><i class="fab fa-facebook-f" style="color: #ffffff;"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-twitter" style="color: #ffffff;"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-instagram" style="color: #ffffff;"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-youtube" style="color: #ffffff;"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-linkedin-in" style="color: #ffffff;"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="lastpad">
+        <div class="container darktolight ">
+            <div class="footer">
+                <p>
+                    Rabitəbank ASC Azərbaycan Mərkəzi Bankın 136 saylı lisenziyası
+                    <br>
+
+                    əsasında fəaliyyət göstərir. © Rabitəbank 2023
+                </p>
+                <ul>
+                    <li><a href="#"><img src="https://www.rabitabank.com/images/infobank.png" alt="img">
+                        </a></li>
+                    <li><a href="#"><img src="https://www.rabitabank.com/images/maliyye-portali.png" alt="img"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container darktolight">
+                <ul class="d-flex justify-content-around">
+                    <li><a class="darktolight footer-bottomplus footer-bottom-a" href="#"><img class="imgdarkmode"
+                                src="https://www.rabitabank.com/storage/pages/228/menu1.svg" alt="img">Kreditlər</a>
+                    </li>
+                    <li><a class="footer-bottomplus darktolight footer-bottom-a" href="#"><img class="imgdarkmode"
+                                src="https://www.rabitabank.com/storage/pages/229/menu2.svg" alt="img">
+                            Kartlar</a></li>
+                    <li class="d-flex align-items-center">
+                        <a class="darktolight" href="#">
+                            <img style="width: 40px;" src="https://www.rabitabank.com/images/svg-icons/add.svg"
+                                alt="img">
+                        </a>
+                    </li>
+                    <li><a class="footer-bottomplus darktolight footer-bottom-a" href="#"><img class="imgdarkmode"
+                                src="https://www.rabitabank.com/storage/pages/230/menu3.svg" alt="img">
+                            Əmanətlər</a></li>
+                    <li><a class="footer-bottomplus darktolight footer-bottom-a" href="#"><img class="imgdarkmode"
+                                src="https://www.rabitabank.com/images/svg-icons/menu4.svg" alt="img">
+                            Daha çox</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="container darktolight d-flex justify-content-between">
+        <div class="menulogo-l"><img src="https://cdn.userway.org/widgetapp/images/body_bl.svg" alt="img"></div>
+        <div class="menulogo-r"><img src="./img/livechat-default-icon.png" alt="img"></div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="rabite.js"></script>
+</body>
+
+</html>
